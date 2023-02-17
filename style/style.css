@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#logo:hover{
+    cursor: pointer;
+    background-color: rgb(69, 74, 78);
+    opacity: 50%;
+    color: whitesmoke;
+  }
+
+
+.nav p{
+    padding: 10px 0px;
+    color: whitesmoke;
+    font-size: 15px;
+
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+body{
+
+    background-image: url(../asset/choco.jpg);
+    background-size: cover;
+    
+ }
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+     
+
+    
+    background-color: rgb(140, 121, 108);
+}
+
+#home{
+    color: rgb(200, 200, 35);
+}
+
+#login{
+    color: rgb(200, 200, 35);
+
+}
+
+#login:hover{
+    color:  rgb(147, 147, 62);
+}
+
+#hov:hover{
+    color: rgb(200, 200, 35);
+ }
+
+#bag{
+    color: rgb(200, 200, 35);
+ 
+}
+#ptag{
+    text-align: center;
+    font-size: 150%;
+    padding: 5%;
+    color: aliceblue;
+    
+  
+}
+
+#h1tag{
+    text-align: center;
+    font-size: 500%;
+    color: aliceblue;
+ 
+}
+
+#h2tag{
+    text-align: center;
+    font-size: 500%;
+    color: aliceblue;
+    text-indent: 10%;
+}
+
+#de{
+    text-align: center;
+    font-size: 200%;
+    color: aliceblue; 
+    margin-bottom: 10%;
+     
+}
+.De{
+    display: flex;
+    justify-content: center;
+    
+}
+ 
+#btn {
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+    margin-left: 43%;
+    margin-right: 43%;
+    margin-bottom: 10%;
+    cursor: pointer;
+ }
+
+ #btn:hover{
+    opacity: 50%;
+    color: whitesmoke;
+    background: rgb(170, 153, 153);
+  }
